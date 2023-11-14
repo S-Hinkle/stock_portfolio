@@ -10,32 +10,32 @@
     <!-- Users Section -->
     <div id="users-section">
         <h2>Users</h2>
-        <button onclick="loadAllUsers()">Load All Users</button>
-        <input type="number" id="user-id" placeholder="User ID">
-        <button onclick="getUserById()">Get User By ID</button>
-        <button onclick="deleteUser()">Delete User</button>
-        <div id="users-list"></div>
+        <button id="load-users">Load All Users</button>
+    <input type="number" id="user-id" placeholder="User ID">
+    <button id="get-user">Get User By ID</button>
+    <button id="delete-user">Delete User</button>
+    <div id="users-list"></div>
 
-        <h3>Add New User</h3>
-        <input type="text" id="new-user-name" placeholder="User Name">
-        <button onclick="addUser()">Add User</button>
-    </div>
+    <h3>Add New User</h3>
+    <input type="text" id="new-user-name" placeholder="User Name">
+    <button id="add-user">Add User</button>
+</div>
 
-    <!-- Stocks Section -->
-    <div id="stocks-section">
-        <h2>Stocks</h2>
-        <button onclick="loadAllStocks()">Load All Stocks</button>
-        <input type="number" id="stock-id" placeholder="Stock ID">
-        <button onclick="getStockById()">Get Stock By ID</button>
-        <button onclick="deleteStock()">Delete Stock</button>
-        <div id="stocks-list"></div>
+<!-- Stocks Section -->
+<div id="stocks-section">
+    <h2>Stocks</h2>
+    <button id="load-stocks">Load All Stocks</button>
+    <input type="number" id="stock-id" placeholder="Stock ID">
+    <button id="get-stock">Get Stock By ID</button>
+    <button id="delete-stock">Delete Stock</button>
+    <div id="stocks-list"></div>
 
-        <h3>Add New Stock</h3>
-        <input type="text" id="new-stock-name" placeholder="Stock Name">
-        <input type="text" id="new-stock-ticker" placeholder="Ticker">
-        <input type="number" id="new-stock-shares" placeholder="Shares">
-        <input type="number" id="new-stock-user-id" placeholder="User ID">
-        <button onclick="addStock()">Add Stock</button>
+    <h3>Add New Stock</h3>
+    <input type="text" id="new-stock-name" placeholder="Stock Name">
+    <input type="text" id="new-stock-ticker" placeholder="Ticker">
+    <input type="number" id="new-stock-shares" placeholder="Shares">
+    <input type="number" id="new-stock-user-id" placeholder="User ID">
+    <button id="add-stock">Add Stock</button>
     </div>
     
     <script src="app.js"></script>
